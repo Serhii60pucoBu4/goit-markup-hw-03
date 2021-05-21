@@ -3,9 +3,17 @@ a {
 }
 
 ul,
-p {
+p,
+h2 {
   padding: 0mm;
   list-style: none;
+  margin: 0mm;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .body {
@@ -122,6 +130,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .way button {
@@ -153,31 +162,25 @@ p {
   letter-spacing: 0.03em;
 }
 
-.imgs1,
-.imgs2,
-.imgs3 {
-  display: flex;
-}
-
-.imgs2 {
-  padding: 30px 0px 30px 0px;
+.textimgs {
+  padding: 20px 24px 20px 24px;
 }
 
 .images {
   background-color: rgba(255, 255, 255, 1);
-  margin-top: 50px;
+  margin-top: -30px;
   margin-left: -30px;
+  padding: 0mm;
+  margin: 0mm;
+  display: flex;
+  flex-wrap: wrap;
 }
-.images li {
+
+.images > .item-img {
   margin-left: 30px;
-}
-.images h2 {
-  color: var(--black-text);
-  padding: 20px 0px 4px 0px;
-  font-size: 18px;
-}
-.images p {
-  color: var(--grey-text);
+  margin-top: 30px;
+  flex-basis: calc(100% / 3 - 30px);
+  outline: 1px solid #eeeeee;
 }
 
 .images h2 {

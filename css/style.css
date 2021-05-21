@@ -3,9 +3,12 @@ a {
 }
 
 ul,
-p {
+p,
+h3,
+h2 {
   padding: 0mm;
   list-style: none;
+  margin: 0mm;
 }
 
 .colortext1 {
@@ -68,10 +71,6 @@ body {
   font-weight: bold;
 }
 
-.logo {
-  padding: 24px 0px;
-}
-
 .nav-list ul {
   padding-left: 93px;
 }
@@ -86,7 +85,9 @@ body {
 
 .header {
   background-color: rgba(255, 255, 255, 1);
+  padding: 24px 0px;
 }
+
 .studio {
   font-family: Roboto;
   font-style: normal;
