@@ -130,7 +130,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .way button {
@@ -170,8 +170,8 @@ img {
   background-color: rgba(255, 255, 255, 1);
   margin-top: -30px;
   margin-left: -30px;
-  padding: 0mm;
-  margin: 0mm;
+  /* padding: 0mm;
+  margin: 0mm; */
   display: flex;
   flex-wrap: wrap;
 }
